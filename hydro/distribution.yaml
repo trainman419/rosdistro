@@ -204,12 +204,6 @@ repositories:
       type: git
       url: https://github.com/LucidOne/ar_tools.git
       version: master
-  ar_track_alvar:
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/ar_track_alvar-release.git
-      version: 0.4.1-0
   arbotix:
     doc:
       type: git
@@ -1416,12 +1410,6 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/dynamixel_pro_driver-release.git
       version: 0.8.3-0
-  dynamixel_pro_moveit_controller:
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/dynamixel_pro_moveit_controller-release.git
-      version: 0.8.1-0
   eband_local_planner:
     release:
       tags:
@@ -2151,24 +2139,6 @@ repositories:
       type: git
       url: https://github.com/g/grizzly_desktop.git
       version: hydro-devel
-  grizzly_simulator:
-    doc:
-      type: git
-      url: https://github.com/g/grizzly_simulator.git
-      version: hydro-devel
-    release:
-      packages:
-      - grizzly_gazebo
-      - grizzly_gazebo_plugins
-      - grizzly_simulator
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/clearpath-gbp/grizzly_simulator-release.git
-      version: 0.1.0-0
-    source:
-      type: git
-      url: https://github.com/g/grizzly_simulator.git
-      version: hydro-devel
   gscam:
     doc:
       type: git
@@ -2290,13 +2260,8 @@ repositories:
       version: hydro-devel
     release:
       packages:
-      - hector_quadrotor
       - hector_quadrotor_controller
-      - hector_quadrotor_controller_gazebo
-      - hector_quadrotor_demo
       - hector_quadrotor_description
-      - hector_quadrotor_gazebo
-      - hector_quadrotor_gazebo_plugins
       - hector_quadrotor_model
       - hector_quadrotor_pose_estimation
       - hector_quadrotor_teleop
@@ -2509,7 +2474,6 @@ repositories:
   husky_metapackages:
     release:
       packages:
-      - husky_desktop
       - husky_robot
       tags:
         release: release/hydro/{package}/{version}
@@ -2525,20 +2489,6 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_navigation-release.git
       version: 0.0.6-3
-  husky_simulator:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_simulator.git
-      version: hydro-devel
-    release:
-      packages:
-      - husky_gazebo
-      - husky_gazebo_plugins
-      - husky_simulator
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_simulator-release.git
-      version: 0.0.3-0
   husky_teleop:
     doc:
       type: git
@@ -4655,24 +4605,6 @@ repositories:
       url: https://github.com/ros-gbp/ompl-release.git
       version: 0.13.0002516-0
     status: maintained
-  open_industrial_ros_controllers:
-    doc:
-      type: git
-      url: https://github.com/start-jsk/open_industrial_ros_controllers.git
-      version: hydro-devel
-    release:
-      packages:
-      - open_controllers_interface
-      - open_industrial_ros_controllers
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/start-jsk/open_industrial_ros_controllers-release.git
-      version: 0.1.4-0
-    source:
-      type: git
-      url: https://github.com/start-jsk/open_industrial_ros_controllers.git
-      version: hydro-devel
-    status: maintained
   open_karto:
     doc:
       type: git
@@ -5008,8 +4940,6 @@ repositories:
       - ndt_feature_reg
       - ndt_fuser
       - ndt_map
-      - ndt_map_builder
-      - ndt_mcl
       - ndt_registration
       - ndt_rviz_visualisation
       - ndt_visualisation
@@ -6671,51 +6601,6 @@ repositories:
       url: https://github.com/rosjava/rosjava_build_tools.git
       version: hydro
     status: developed
-  rosjava_core:
-    doc:
-      type: git
-      url: https://github.com/rosjava/rosjava_core.git
-      version: hydro
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/rosjava-release/rosjava_core-release.git
-      version: 0.1.6-0
-    source:
-      type: git
-      url: https://github.com/rosjava/rosjava_core.git
-      version: hydro
-    status: developed
-  rosjava_extras:
-    doc:
-      type: git
-      url: https://github.com/rosjava/rosjava_extras.git
-      version: hydro
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/rosjava-release/rosjava_extras-release.git
-      version: 0.1.5-0
-    source:
-      type: git
-      url: https://github.com/rosjava/rosjava_extras.git
-      version: hydro
-    status: developed
-  rosjava_messages:
-    doc:
-      type: git
-      url: https://github.com/rosjava/rosjava_messages.git
-      version: hydro
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/rosjava-release/rosjava_messages-release.git
-      version: 0.1.63-0
-    source:
-      type: git
-      url: https://github.com/rosjava/rosjava_messages.git
-      version: hydro
-    status: developed
   roslint:
     doc:
       type: git
@@ -6731,46 +6616,11 @@ repositories:
       url: https://github.com/ros/roslint.git
       version: master
     status: maintained
-  roslisp:
+  rosmatlab:
     doc:
       type: git
-      url: https://github.com/ros/roslisp.git
+      url: https://github.com/tu-darmstadt-ros-pkg/rosmatlab.git
       version: master
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.17-0
-    status: maintained
-  roslisp_common:
-    doc:
-      type: git
-      url: https://github.com/ros/roslisp_common.git
-      version: master
-    release:
-      packages:
-      - actionlib_lisp
-      - cl_tf
-      - cl_transforms
-      - cl_utils
-      - roslisp_common
-      - roslisp_utilities
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.2-0
-    status: maintained
-  roslisp_repl:
-    doc:
-      type: git
-      url: https://github.com/ros/roslisp_repl.git
-      version: master
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/roslisp_repl-release.git
-      version: 0.3.3-0
-    status: maintained
   rospack:
     doc:
       type: git
@@ -7019,7 +6869,6 @@ repositories:
       - rqt_robot_plugins
       - rqt_robot_steering
       - rqt_runtime_monitor
-      - rqt_rviz
       - rqt_tf_tree
       tags:
         release: release/hydro/{package}/{version}
@@ -8870,21 +8719,6 @@ repositories:
       type: git
       url: https://github.com/stonier/zeroconf_avahi_suite.git
       version: hydro-devel
-    status: developed
-  zeroconf_jmdns_suite:
-    doc:
-      type: git
-      url: https://github.com/rosjava/zeroconf_jmdns_suite.git
-      version: hydro
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/rosjava-release/zeroconf_jmdns_suite-release.git
-      version: 0.1.13-0
-    source:
-      type: git
-      url: https://github.com/rosjava/zeroconf_jmdns_suite.git
-      version: hydro
     status: developed
   zeroconf_msgs:
     doc:
