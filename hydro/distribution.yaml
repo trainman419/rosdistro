@@ -6310,8 +6310,8 @@ repositories:
       - xmlrpcpp
       tags:
         release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.10.11-0
+      url: https://github.com/ros-arm-gbp/ros_comm-release.git
+      version: 1.9.50-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
