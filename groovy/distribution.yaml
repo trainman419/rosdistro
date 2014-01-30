@@ -5,7 +5,6 @@
 release_platforms:
   ubuntu:
   - precise
-  - oneiric
   - quantal
 repositories:
   3d_interaction:
