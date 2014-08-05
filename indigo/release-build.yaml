@@ -15,8 +15,6 @@ targets:
   _config:
     apt_target_repository: http://packages.namniart.com/repos/building/
   ubuntu:
-    saucy:
-      armhf:
     trusty:
       armhf:
 type: release-build
